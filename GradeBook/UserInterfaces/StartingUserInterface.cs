@@ -44,7 +44,7 @@ namespace GradeBook.UserInterfaces
             var weighted = false;
             if (parts[3] == "true")
                 weighted = true;
-            BaseGradeBook gradeBook;
+
             if(type == "standard")
                 {StandardGradeBook gradeBook = new StandardGradeBook(name, weighted);}
             else if(type == "ranked")
